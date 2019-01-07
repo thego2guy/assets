@@ -1,0 +1,788 @@
+/* responsive css */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width:320px) and (max-width: 767px) {
+	
+#banner .navbar-brand img {
+    width: 100%;
+}
+.feserch {
+    top: 106px;
+    right: 89px;
+	
+}
+.pon img{
+	display:none;
+}
+.pon-inner{
+	padding:20px;
+}
+.whatpon{
+	padding:20px !important;
+}
+.eng-inner{
+	padding:20px !important;
+}
+.contactbg{
+	padding:20px !important;
+}
+.pon-inner h3, h1{
+	font-size: 20px;
+	text-align: left;
+}
+.pon-inner h1{
+	font-size: 25px;
+}
+.pon-inner h2{
+	padding-left:10px;
+	font-size: 22px;
+}
+.services h3{
+	font-size: 20px;
+	padding: 0px 10px;
+}
+.offer-details h4{
+	font-size: 20px;
+}
+.offer-details p{
+	font-size:16px;
+}
+.offer-details-2 h4{
+	font-size: 20px;
+}
+.offer-details-2 p{
+	font-size:16px;
+}
+.offer-details-3 h4{
+	font-size: 20px;
+}
+.offer-details-3 p{
+	font-size:16px;
+}
+.contact h3{
+	font-size: 22px;
+}
+.map h3{
+	font-size: 22px;
+}
+
+#banner  {
+min-height:auto;
+}
+#banner p {
+    font-size:16px;
+}
+.pon-inner h3:before {
+    content:none;
+}
+
+.about{
+	margin:0;
+}
+
+.e-content{
+	width:100%;
+	padding:30px;
+}
+.wwe img{
+	float:none;
+	width:100%;
+	margin-top: 30%;
+}
+.mob-img{
+	float:none !important;
+	width:100% !important;
+	margin-top: 30% !important;
+	display:block;
+}
+.wwd img{
+	float:none;
+	width:100%;
+	margin-top:10%;
+	position:static;
+}
+
+.whoowe  h1{
+	text-align:center;
+}
+.whoowe{
+	padding:0;
+}
+.whatwedo h1{
+		text-align:left;
+}
+.whoowe p{
+    width: 90%;
+	text-align: left;
+}
+.whatwedo p {
+    width: 90%;
+	float: none;
+text-align: center;
+}
+
+.whoowe .btn-warning{
+	bottom: -183px;
+}
+.howwe .btn-warning{
+    bottom: -198px;
+}
+.whatwedo .btn-warning{
+	bottom: -66px;
+    left: 127px;
+}
+.howwe h1 {
+	text-align:center;
+}
+.profile{
+	background:none;
+}
+
+.talk-us{
+	padding:10px;
+}
+.event label{
+	padding-left: 10%;
+    color: #ffb300;
+    padding-bottom: 40px;
+	font-size: 30px;
+}
+.e-content h3{
+	font-size:22px;
+}
+.event-right p{
+	font-size:16px;
+}
+.talk-us h2{
+	font-size:22px;
+}
+.talk-us p{
+	font-size:16px;
+}
+.event{
+	margin-top:10px;
+}
+.event-left img{
+	float:none;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+.wwd{
+	top: 22px;
+	left:0;
+}
+.whoowe h1:before{
+content:none;
+}
+.whatwedo  h1:before{
+content:none;
+}
+.howwe {
+    margin-top: 150px;
+	padding:0;
+}
+.hwe img{
+	float:none;
+	width:100%;
+	margin-top:40%;
+}
+.howwe p{
+	width: 90%;
+	text-align: left;
+}
+.howwe h1:before{
+	content:none;
+}
+.pon-inner h2:before{
+	content:none;
+}
+.event label:before{
+		content:none;
+}
+.event-left {
+    min-height: 252px;
+}
+.cust{
+	padding:10px;
+}
+.cust ul li{
+	padding:3px;
+}
+.footer-top ul li{
+	float:none;
+}
+.footer-top{
+	padding: 50px 20px;
+}
+.footer-top ul {
+    left: -31px;
+}
+.social-list{
+	margin-top:30px;
+}
+.social-list li{
+ margin: 0px 5px;
+}
+.whyancont h3{
+	padding:0px 10px;
+	font-size: 20px;
+}
+.whyancont h4{
+	font-size:18px;
+}
+.why-main p{
+	font-size:16px;
+}
+.why-cont-right{
+	padding:10px 30px;
+}
+.whypon{
+	padding:20px !important;
+}
+.why-us{
+	padding:20px !important;
+}
+.pon-inner p{
+padding:0px 10px;
+}
+.address {
+    margin-top: 50px;
+}
+.contact label{
+}
+.address img{
+	width:40px;
+}
+.eng-inner{
+	padding:20px;
+}
+.eng-add h3{
+	font-size:18px;
+	padding: 0px 10px;
+}
+.products h3{
+	font-size:18px;
+}
+.products p{
+	font-size:16px;
+}
+.offer-details{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-details-2{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-details-3{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-services{
+	margin-bottom:20%;
+}
+.whowe .pon-inner{
+	padding:15px !important;
+}
+
+.vision-middle{
+	display:none;
+}
+
+.vision-detail{
+	margin-bottom:30px;
+}
+.profile img{
+	position: static;
+	height:auto;
+}
+.founder h1:before{
+	content:none;
+}
+.founder h1{
+	position: static;
+}
+.profile p{
+    padding: 15px;
+    word-break: break-word;
+}
+.whowe .pon-inner h2{
+	padding-left:5px !important;
+	font-size: 24px;
+}
+.our-mission img{
+	float:none;
+	width: auto;
+}
+.our-mission-cont h1:before{
+	content:none
+}
+.vission h1:before{
+	content:none
+}
+.our-mission-cont p{
+	padding:0px 10px;
+}
+.our-mission-cont h1{
+	text-align:left;
+	margin-bottom:10px;
+	padding: 0px 10px;
+}
+.vission{
+	margin-top:40px;
+}
+.vission h1{
+	text-align:left;
+	margin-bottom:10px;
+	padding: 0px 10px;
+}
+.vission p{
+	padding:0px 10px;
+	text-align:left!important;
+}
+.vission-left img{
+	float:right;
+	width:auto;
+}
+.w-left{
+	padding:0;
+}
+.footer-top ul li{
+	font-size:16px;
+}
+.footer-top p{
+	font-size:16px;
+}
+.footer-bottom p{
+	font-size:13px;
+}
+.footer-top h4{
+	font-size:18px;
+}
+.whoowe h1{
+	font-size:22px;
+}
+.whatwedo h1{
+	font-size:22px;
+}
+.howwe h1{
+	font-size:22px;
+}
+.whyancont img {
+    width: 120px;
+    margin-left: 55px;
+    margin-bottom: 17px;
+}
+.whyancont{
+	padding:10px 0px;
+}
+.why-main{
+	padding:10px 0px;
+}
+.w3{
+	margin:0;
+}
+.why-us p{
+	font-size: 15px;
+}
+.eng-add{
+	padding:10px 0px;
+}
+.eng-add h3{
+	margin-bottom:40px;
+	font-size: 16px;
+}
+.products{
+	margin-top:10px;
+}
+.product-details{
+	padding:20px 10px;
+}
+.contact{
+	padding:10px 0px;
+}
+.contact h3{
+	margin-bottom:40px;
+}
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  
+  .whatwedo .btn-warning {
+    bottom: -66px;
+    left: 166px;
+}
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width:768px) and (max-width:1024px) {
+.pon-inner h3:before {
+    content:none;
+}
+.pon-inner h2{
+	padding-left:10px;
+}
+.hwe h1:before{
+	content:none;
+}
+.event label:before{
+		content:none;
+}
+#banner .pon-inner{
+	padding:75px !important;
+}
+.address img {
+    width: 31px;
+}
+.our-mission img{
+	width:auto;
+}
+.vission-left img{
+	width:auto;
+}
+.wwda h1:before{
+content:none;
+}
+
+.hwe h1:before{
+	content:none;
+}
+.whoowe h1:before{
+content:none;
+}
+.whatwedo  h1:before{
+content:none;
+}
+
+.howwe h1:before{
+	content:none;
+}
+.wwd img{
+	width: 100%;
+	top: -14px;
+    right: -24px;
+}
+.wwe img{
+	width: 100%;
+}
+.hwe img{
+	width: 100%;
+}
+.whoowe p{
+	width:100%;
+	text-align: right;
+}
+.whatwedo p{
+	width:72%;
+	text-align: right;
+}
+.howwe p{
+	width:100%;
+	text-align: right;
+}
+
+.e-content{
+	width:100%;
+}
+.wwd{
+	left: -24px;
+}
+.wwa .btn-warning {
+	bottom: -15%;
+}
+.wwda .btn-warning{
+	bottom: -38%;
+}
+.hwe .btn-warning{
+	bottom: -22%;
+
+}
+.address .fa{
+	padding: 13px;
+}
+.msg{
+	padding: 13px 10px  !important;
+}
+.pon-inner h2:before{
+	content:none;
+}
+.offer-details{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-details-2{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-details-3{
+	top: 100%;
+	width: 100%;
+	padding: 30px;
+	position:static;
+	display:block;
+}
+.offer-services{
+	margin-bottom:20%;
+}
+.whowe .pon-inner{
+	padding:10px !important;
+}
+.vfda{
+	margin:0px;
+}
+.vfda h1:before{
+	content:none;
+}
+.vfda p{
+	padding:10px;
+}
+.vision-middle{
+	display:none;
+}
+.mfa{
+	margin:0px;
+}
+.mfa p{
+	padding:10px;
+}
+.mfa h1:before{
+	content:none;
+}
+.founder h1:before{
+	content:none;
+}
+.profile img{
+	position: static;
+	height:auto;
+}
+.profile p{
+	padding:10px;
+}
+.vfnb{
+	display:none;
+}
+.our-mission-cont h1:before{
+	content:none
+}
+.vission h1:before{
+	content:none
+}
+.our-mission-cont{
+	margin:0;
+}
+.our-mission-cont p{
+	padding:0px 1px;
+}
+.vission{
+	margin:0;
+}
+.vission p{
+	padding:0px 1px;
+}
+.e-content h3{
+	font-size: 28px;
+}
+.event-right p{
+	font-size: 21px;
+}
+.event label {
+  font-size: 36px;
+
+}
+
+
+	
+}
+
+
+/* Large screens ----------- */
+@media (min-width:1025px) and (max-width:1399px) {
+	
+.event label {
+    margin-top: 68px;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 30%;
+    color: #ffb300;
+    font-family: Montserrat-Bold;
+}
+.event label:before {
+    content: "";
+    display: block;
+    height: 6px;
+    color: #ffb300;
+    border-right: 56px solid #ffb300;
+    position: absolute;
+    top: 26px;
+    left: 34%;
+}
+.e-content {
+    width: 70%;
+    padding: 70px 12px 70px 159px;
+}
+.e-content h3 {
+    color: #ffb300;
+    font-weight: bold;
+    font-family: Montserrat-Bold;
+    font-size: 28px;
+}
+.event-right p {
+    color: #212121;
+    font-weight: 700;
+    font-family: Montserrat-Bold;
+    font-size: 21px;
+}
+
+}
+
+@media (min-width:100px) and (max-width:640px) {
+
+#banner .navbar-brand{
+	 width: 200px;
+}
+
+
+.feserch{
+	top:23px;
+	right:69px;
+}
+.menu-icon{
+	margin-top:10px;
+}
+	
+.pon-inner p{
+padding:0;	
+}
+
+.whoowe p{
+	text-align:center;
+	width:100%;
+	padding:10px 15px;
+}
+.whoowe .btn-warning{
+	/*right:26%;*/
+	position: static;
+margin: 0 auto;
+display: block;
+}
+
+.wwe, .wwd, .hwe{
+	padding:10px;
+}
+
+.whatwedo h1{
+	padding:0;
+	text-align:center;
+}
+.whatwedo p{
+	margin:0;
+	text-align:center;
+	padding:10px 15px;
+	width:100%;
+}
+.whatwedo .btn-warning{
+	/*left:103px;*/
+	position: static;
+margin: 0 auto;
+display: block;
+}
+
+.howwe p{
+	width:100%;
+	padding:10px 15px;
+	text-align:center;
+}
+
+.howwe .btn-warning{
+	/*right:24%;*/
+	position: static;
+margin: 0 auto;
+display: block;
+}
+
+.event label{
+	padding:30px;
+	text-align:center;
+	display:block;
+}
+
+.event-main{
+	background:none;
+}
+
+.w2{
+	padding-top:60px;
+}
+
+.cust ul{
+	padding:0;
+}
+.cust ul li {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.qlinks{
+	padding-left:10px;
+	padding-bottom:20px;
+}
+.qlinks ul{
+	padding-left:20px;
+}
+
+.wwd{
+	top:82px;
+}
+
+.pon-inner h2{padding:0;}
+
+.whowe .pon-inner h2{padding:0 !important;}
+
+/*who we are*/
+.vision{ margin-top: 50px; }
+.our-mission-cont{ margin-bottom:10px;}
+.timline{margin:30px;}
+
+.why-main .w2{padding-top: 0;}
+
+.contact-banner .navbar-brand{ padding:15px; }
+
+}
+
+
+html{overflow-x:hidden;}
+
+
+
+
+
